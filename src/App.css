@@ -1,0 +1,252 @@
+header{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+video{
+    position: absolute; 
+    right: 1.5;
+    top: 1; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text h1{
+    font-size: 4rem;
+    margin: 20px 0px;
+}
+
+.text h1 span{
+    color: orange;
+}
+
+.text h2{
+    font-size: 2rem;
+    width: 400px;
+}
+
+.text button{
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(174, 174, 70);
+}
+
+
+.About-Us{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Us .image{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    gap: 30px;
+}
+
+.About-Us .image .card1{
+    width: 300px;
+    height: auto;
+    border: 3px lightcoral solid;
+}
+
+.About-Us .image .card1 img{
+    width: inherit;
+    height: inherit;
+}
+
+.About-Us .image .card2 img{
+    width: inherit;
+    height: inherit;
+}
+
+.About-Us .image .card2{
+    position: relative;
+    z-index: -1;
+    top: 50px;
+    width: 300px;
+    height: auto;
+    border: 3px lightcoral solid;
+}
+
+.About-Us .text{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(220, 183, 51);
+    border-radius: 5px;
+}
+
+.About-Us .text p{
+    padding-top: 15px;
+}
+
+.Services{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+
+.Services .container{
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.Services .option1{
+    width: 400px;
+    height: 300px;
+    border: 3px lightcoral solid;
+    background-image: url(image/Caranim1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Services .option1 .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.525);
+}
+
+.Services .option2{
+    width: 400px;
+    height: 300px;
+    border: 3px lightcoral solid;
+    background-image: url(image/Caranim2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Services .option2 .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.525);
+}
+
+.Services .option3{
+    width: 400px;
+    height: 300px;
+    border: 3px lightcoral solid;
+    background-image: url(image/Caranim3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Services .option3 .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.525);
+}
+
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(174, 174, 70);
+    rotate: 0 0 1 2deg;
+    top: 2000px;
+    z-index: 0;
+}
+
+.Contact{
+    width: 100%;
+    height: 680px;
+    background-image: url(image/Background3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Contact .container{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(38, 38, 38, 0.859);
+}
+
+.Contact .container .Owner{
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.405),
+        rgba(0, 0, 0, 0.2)
+    );
+    gap: 50px;
+}
+
+.Contact .container .Owner .image{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: darkslateblue;
+
+    background-image: url(image/Wolf1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+}
+
+.Contact .container .Owner .image img{
+    position: relative;
+}
+
+.Contact .container .Owner .text{
+    color: white;
+}
+
+.Page{
+    width: 100%;
+    height: 680px;
+}
+
+.box2{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(174, 174, 70);
+    rotate: 0 0 1 2deg;
+    top: 2000px;
+    z-index: 0;
+}

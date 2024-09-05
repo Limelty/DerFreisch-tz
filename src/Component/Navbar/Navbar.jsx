@@ -1,23 +1,22 @@
 import './Navbar.css'
+import logo from './image/Logo2.svg'
 
-const Navbar = () => {
+const Navbar = () =>{
     return(
         <nav>
-            <div className="left">
-                <h1>Element</h1>
-            </div>
-            <div className="center">
+           <div className="logo">
+                <img src={logo} alt="Company Logo"/>
+                <h1>Der Freischütz</h1>
+           </div>
+           <div className="navigation">
                 <ul>
-                   <li><a href="#Home">Home</a></li>
-                   <li><a href="#About">About Us</a></li>
-                   <li><a href="#Service">Service</a></li>
-                   <li><a href="#Contact Us">Contact Us</a></li>
-                   <li><a href="#Page">Page</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About Us">About Us</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Page">Page</a></li>
                 </ul>
-            </div>
-            <div className="right">
-                <button>Get an Appointment</button>
-            </div>
+           </div>
         </nav>
     )
 }
