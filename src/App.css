@@ -304,6 +304,51 @@ video{
     color: orange;
 }
 
+.box2{
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(174, 174, 70);
+    top: 2000px;
+    z-index: 0;
+}
+
 .Contact{
-    
+    width: 100%;
+    height: 680px;
+}
+
+.Contact .section1{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact .section1 h1{
+    margin-bottom: 10px;
+}
+
+.Contact .section1 h2{
+    margin-bottom: 10px;
+}
+
+.Contact .section1 p{
+    margin-bottom: 20px;
+}
+
+.Contact .section1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(174, 174, 70);
+}
+
+.Contact .section2{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    background-color: rgb(38, 38, 38);
 }

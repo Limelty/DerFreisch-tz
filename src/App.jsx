@@ -105,8 +105,23 @@ function App() {
           </div>
         </div>
 
+        <div className="box2"></div>
+
         <div className="Contact" id='Contact'>
-          
+          <div className="section1">
+            <h1>How Can We Help Today?</h1>
+            <h2>Get Special Offer Today!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat.</p>
+            <button>Contact Now</button>
+          </div>
+          <div className="section2">
+            <div className="image">
+              
+            </div>
+            <div className="text">
+
+            </div>
+          </div>
         </div>
       </main>
     </>
