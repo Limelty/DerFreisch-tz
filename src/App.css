@@ -350,5 +350,45 @@ video{
     width: 100%;
     height: 340px;
     display: flex;
+    gap: 30px;
     background-color: rgb(38, 38, 38);
+}
+
+.Contact .section2 .image{
+    width: 800px;
+    height: inherit;
+
+    background-image: url(image/Caranim4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Contact .section2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Contact .section2 .text h1{
+    margin-left: 100px;
+    color: orange;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+
+    background-image: url(image/Background1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .container{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(246, 255, 0, 0.382);
 }

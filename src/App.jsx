@@ -115,15 +115,24 @@ function App() {
             <button>Contact Now</button>
           </div>
           <div className="section2">
-            <div className="image">
-              
-            </div>
+            <div className="image"></div>
             <div className="text">
-
+              <h1>Contact Us:</h1>
+              <ul>
+                <li><p>Email: Example@gmail.com</p></li>
+                <li><p>Telp: +1-111-111</p></li>
+                <li><p>JL: Example Road</p></li>
+              </ul>
             </div>
           </div>
         </div>
       </main>
+
+      <footer>
+        <div className="container">
+          
+        </div>
+      </footer>
     </>
   )
 }
